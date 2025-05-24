@@ -4,11 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gpu</title>
+    <style>
+      .red-button {
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        height: 30px;
+        width: 90px;
+        cursor: progress;
+        margin-right: 10px;
+        margin-left: 150px;
+        font-weight: bold;
+        font-size: 12px;
+      }
+      .green-button {
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        height: 30px;
+        width: 90px;
+        cursor: pointer;
+        font-style: italic;
+        font-size: 13px;
+        transition: opacity 500ms, box-shadow 500ms;
+      }
+      .green-button:hover {
+        opacity: 0.8;
+        box-shadow: 0px 2px 0px rgba(82, 166, 82, 0.3);
+      }
+      .green-button:active {
+        opacity: 0;
+      }
+    </style>
   </head>
   <body>
     <div style="text-align: center; background-color: aqua">
-      <a href="www.google.com">google</a>
-      <a href="www.wikipedia.com">wikipedia</a>
+      <a href="https://www.google.com" target="_blank">google</a>
+      <a href="https://www.wikipedia.org" target="_blank">wikipedia</a>
     </div>
     <div style="background-color: blueviolet">
       <div style="background-color: black; text-align: end">
@@ -17,9 +51,11 @@
       <p>test1</p>
       <p>test2</p>
     </div>
-    <h1>in the name of god</h1>
+    <h1>in the begining</h1>
     <hr />
-    <p>salma</p>
+    <p>sal ma</p>
+    <button class="red-button">false button</button>
+    <button class="green-button">true buton</button>
     <footer>end</footer>
   </body>
 </html>
