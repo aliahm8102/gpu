@@ -2,61 +2,45 @@
 <html lang="fa">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gpu</title>
-    <style>
-      .red-button {
-        background-color: red;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        height: 30px;
-        width: 90px;
-        cursor: progress;
-        margin-right: 10px;
-        margin-left: 150px;
-        font-weight: bold;
-        font-size: 12px;
-      }
-      .green-button {
-        background-color: green;
-        color: white;
-        border: none;
-        border-radius: 15px;
-        height: 30px;
-        width: 90px;
-        cursor: pointer;
-        font-style: italic;
-        font-size: 13px;
-        transition: opacity 500ms, box-shadow 500ms;
-        user-select: none
-      }
-      .green-button:hover {
-        opacity: 0.8;
-        box-shadow: 0px 2px 0px rgba(82, 166, 82, 0.3);
-      }
-      .green-button:active {
-        opacity: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div style="text-align: center; background-color: aqua">
-      <a href="https://www.google.com" target="_blank">google</a>
-      <a href="https://www.wikipedia.org" target="_blank">wikipedia</a>
+    <div class="head">
+      <input class="search-bar" type="text" placeholder="search" />
+      <button class="head-button">
+        <img src="https://www.google.com/favicon.ico" alt="Google Icon" />
+        <a
+          style="font-family: Arial; font-size: large; vertical-align: 50%"
+          href="https://www.google.com"
+          target="_blank"
+          >google</a
+        >
+      </button>
+      <button class="head-button">
+        <img src="https://www.bing.com/favicon.ico" alt="Bing Icon" />
+        <a
+          style="font-family: Arial; font-size: large; vertical-align: 50%"
+          href="https://www.bing.com"
+          target="_blank"
+          >bing</a
+        >
+      </button>
+
+      <button class="head-button">
+        <img style="height: 35px;;" src="img/home.png" alt="home icon">
+        <a
+          style="font-family: Arial; font-size: large; vertical-align: 50%"
+          href="https://aliahm8102.github.io/gpu/"
+          target="_blank"
+          >home</a
+        >
     </div>
-    <div style="background-color: blueviolet">
-      <div style="background-color: black; text-align: end">
-        <p>test3</p>
-      </div>
-      <p>test1</p>
-      <p>test2</p>
-    </div>
-    <h1>in the begining</h1>
+
     <hr />
     <p>sal ma</p>
     <button class="red-button">false button</button>
-    <button class="green-button">true buton</button>
+    <button class="green-button">true button</button>
     <footer>end</footer>
   </body>
 </html>

@@ -1,0 +1,75 @@
+.red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    cursor: progress;
+    margin-right: 10px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 13px;
+    transition: opacity 500ms, box-shadow 500ms;
+  }
+  .green-button:hover {
+    opacity: 0.8;
+    box-shadow: 0px 2px 0px rgba(82, 166, 82, 0.3);
+  }
+  .green-button:active {
+    opacity: 0;
+  }
+  .head{
+    background-color: antiquewhite;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    /* text-align: center; */
+    margin-top: 0px;
+  }
+.head-button {
+    background-color: #4285F4;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: 50%;
+    margin-right: 10px;
+    float:right;
+    ;
+  }
+  .head-button:hover {
+    opacity: 0.8;
+  }
+  .head-button:active {
+    opacity: 0.6;
+  }
+
+  .search-bar {
+    place-items: center;
+    border: none;
+    margin-left: 10px;
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: Arial;
+    font-style: italic;
+  }
